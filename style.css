@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #1f45fc;
+    height: auto;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 0;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    color: #333;
+    border-top: 3px solid #ccffff;
+}
+
+img {
+    display: block;
+    width:60%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 900px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+}
+
+#parent {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#profile-head {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio-data-content {
+    margin-top: 2rem;
+}
+
+.content {
+    padding: 1.4rem;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    color: #333;
+    background: #a7c7cf;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 40%;
+    height: 2rem;
+    padding: 13px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#message {
+    box-sizing: border-box;
+    width: 40%;
+    height: 6rem;
+    padding: 0.8rem;
+    text-align: left;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+#btn {
+    height: 2rem;
+    background-color: #938ddb;
+    color: #fff;
+    font-weight: 700;
+    box-sizing: border-box;
+    width: 30%;
+    height: 2rem;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#btn:hover {
+    background: #0948ad;
+    cursor: pointer;
+}
+
+@media(max-width: 500px) {
+    #bio-data-content {
+        margin-top: 2rem;
+    }
+
+    .input {
+        width: 60%;
+    }
+
+    #message {
+        width: 60%;
+    }
+}
+
+@media(min-width: 900px) {
+
+
+    img {
+        width: 30%;
+        height: 40%;
+    }
+}
